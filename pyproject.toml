@@ -1,0 +1,26 @@
+[project]
+name = "authorship"
+version = "0.1.0"
+description = "Experimentation for an Authorship Attribution paper."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate==1.7.0",
+    "datasets==3.6.0",
+    "hydra-core==1.3.2",
+    "jupyterlab==4.4.3",
+    "langdetect==1.0.9",
+    "openai==1.90.0",
+    "pandas==2.2.3",
+    "python-dotenv==1.0.0",
+    "pytorch-lightning==2.5.1",
+    "scikit-learn==1.7.0",
+    "seaborn==0.13.2",
+    "torch==2.7.1",
+    "torchmetrics==1.7.2",
+    "transformers==4.56.2",
+    "wandb==0.19.11",
+    "vllm==0.10.0",
+    "sentence-transformers==5.2.3",
+    "peft==0.18.1",
+]
